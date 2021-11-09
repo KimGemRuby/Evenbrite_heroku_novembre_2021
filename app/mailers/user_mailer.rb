@@ -1,10 +1,10 @@
 class UserMailer < ApplicationMailer
     
-    default from: 'seoulite@yopmail.com'
+    default from: 'albatorraubyonrailscestdelagrosse merde@yopmail.com'
  
     def welcome_email(user)
       @user = user 
-      @url  = 'https://events-diane.herokuapp.com' 
+      @url  = 'https://evenbritekim.herokuapp.com' 
       mail(to: @user.email, subject: 'Bienvenue chez nous !') 
     end
   
